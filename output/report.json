@@ -1,0 +1,72 @@
+[
+    {
+        "id": "CBF001",
+        "line": 1,
+        "severity": "HIGH",
+        "issue": "Hardcoded Password",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF004",
+        "line": 5,
+        "severity": "MEDIUM",
+        "issue": "Empty Exception Handler",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF007",
+        "line": 5,
+        "severity": "MEDIUM",
+        "issue": "Bare Exception Detected",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF003",
+        "line": 8,
+        "severity": "LOW",
+        "issue": "Debug Print Statement",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF002",
+        "line": 10,
+        "severity": "HIGH",
+        "issue": "Possible Infinite Loop",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF006",
+        "line": 14,
+        "severity": "HIGH",
+        "issue": "Hardcoded API Key",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF008",
+        "line": 15,
+        "severity": "MEDIUM",
+        "issue": "Wildcard Import Detected",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF005",
+        "line": 12,
+        "severity": "LOW",
+        "issue": "TODO Comment Found",
+        "file": "samples\\sample_code.py"
+    },
+    {
+        "id": "CBF003",
+        "line": 1,
+        "severity": "LOW",
+        "issue": "Debug Print Statement",
+        "file": "samples\\test2.py"
+    },
+    {
+        "id": "CBF002",
+        "line": 3,
+        "severity": "HIGH",
+        "issue": "Possible Infinite Loop",
+        "file": "samples\\test2.py"
+    }
+]

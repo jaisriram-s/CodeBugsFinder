@@ -1,0 +1,11 @@
+File,Rule ID,Line,Severity,Issue
+samples\sample_code.py,CBF001,1,HIGH,Hardcoded Password
+samples\sample_code.py,CBF004,5,MEDIUM,Empty Exception Handler
+samples\sample_code.py,CBF007,5,MEDIUM,Bare Exception Detected
+samples\sample_code.py,CBF003,8,LOW,Debug Print Statement
+samples\sample_code.py,CBF002,10,HIGH,Possible Infinite Loop
+samples\sample_code.py,CBF006,14,HIGH,Hardcoded API Key
+samples\sample_code.py,CBF008,15,MEDIUM,Wildcard Import Detected
+samples\sample_code.py,CBF005,12,LOW,TODO Comment Found
+samples\test2.py,CBF003,1,LOW,Debug Print Statement
+samples\test2.py,CBF002,3,HIGH,Possible Infinite Loop

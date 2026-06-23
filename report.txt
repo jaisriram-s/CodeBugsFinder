@@ -1,0 +1,4 @@
+HIGH: Hardcoded password detected
+HIGH: Possible division by zero
+MEDIUM: Empty except block detected
+LOW: Possible unused variable

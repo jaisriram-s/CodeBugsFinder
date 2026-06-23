@@ -1,0 +1,12 @@
+===== CodeBugFinder Report =====
+
+Line 1 | HIGH | Hardcoded Password
+Line 5 | MEDIUM | Empty Exception Handler
+Line 5 | MEDIUM | Bare Exception Detected
+Line 8 | LOW | Debug Print Statement
+Line 10 | HIGH | Possible Infinite Loop
+Line 14 | HIGH | Hardcoded API Key
+Line 15 | MEDIUM | Wildcard Import Detected
+Line 12 | LOW | TODO Comment Found
+Line 1 | LOW | Debug Print Statement
+Line 3 | HIGH | Possible Infinite Loop
