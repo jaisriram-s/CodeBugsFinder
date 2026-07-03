@@ -96,5 +96,26 @@ filtered_bugs = [
     bug for bug in bugs
     if search.lower() in bug["issue"].lower()
 ]
+severity_filter = st.selectbox(
+    "Filter Severity",
+    ["ALL", "HIGH", "MEDIUM", "LOW"]
+)
+if severity_filter == "ALL":
+    filtered_bugs = bugs
+else:
+    filtered_bugs = [
+        bug for bug in bugs
+        if bug["severity"] == severity_filter
+    ]
+
+st.dataframe(filtered_bugs)
+
+search = st.text_input("Search Issue")
+
+if search:
+    filtered_bugs = [
+        bug for bug in filtered_bugs
+        if search.lower() in bug["issue"].lower()
+    ]
 
 
