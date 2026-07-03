@@ -117,5 +117,27 @@ if search:
         bug for bug in filtered_bugs
         if search.lower() in bug["issue"].lower()
     ]
+import pandas as pd
 
+df = pd.DataFrame(bugs)
 
+st.subheader("Severity Distribution")
+
+st.bar_chart(
+    df["severity"].value_counts()
+)
+rules = {
+    "CBF001":"Hardcoded credentials",
+    "CBF002":"Infinite loop risk",
+    "CBF003":"Debug statement",
+    "CBF004":"Empty exception handler",
+    "CBF005":"Pending TODO",
+    "CBF006":"Hardcoded API key",
+    "CBF007":"Bare exception",
+    "CBF008":"Wildcard import"
+}
+{
+    "id":"CBF001",
+    "issue":"Hardcoded Password",
+    "fix":"Use environment variables"
+}
